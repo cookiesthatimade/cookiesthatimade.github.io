@@ -1,0 +1,257 @@
+<style>
+  .content-box {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .project-row {
+    display: flex;
+    flex-direction: column; /* 추가 */
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .project-box {
+    margin-bottom: 30px;
+  }
+
+  .project-img-box {
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+
+  .project-description {
+    max-width: 500px;
+  }
+
+  .portfolio-box {
+    display: block;
+    position: relative;
+  }
+
+  .portfolio-box img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .portfolio-box-caption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .lineblock-skill {
+    display: inline-block;
+    background: #51ccb7df;
+    padding: 3px 8px;
+    margin: 4px 4px 0 0;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+
+  .lineblock-date {
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+</style>
+
+<section class="bg-section" id="Project">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <i class="fa fa-3x fa-folder-open"></i>
+          <h2 class="section-heading">
+            Project
+            <span style="font-size: 0.7em">| 이미지 클릭 시 GitHub 이동</span>
+          </h2>
+        </div>
+      </div>
+
+      <div class="content-box">
+        <!-- Project 1 -->
+        <div class="project-row">
+          <div class="project-img-box">
+            <a
+              href="https://github.com/cookiesthatimade/flask-fruit-farm-robot-web.git"
+              class="portfolio-box"
+              target="_blank"
+            >
+              <img src="img/project/project6.png" alt="fruitfarm-web" />
+              <div class="portfolio-box-caption">
+                <div>fruit-farm-robot-web</div>
+              </div>
+            </a>
+          </div>
+          <div class="project-description">
+            <h4>📌 프로젝트 1 - 자율주행 과수운반 로봇 WEB</h4>
+            <span class="lineblock-date">2024.10 ~ 2024.12</span><br />
+            <span class="lineblock-skill">HTML/CSS</span>
+            <span class="lineblock-skill">Javascript</span>
+            <span class="lineblock-skill">Python</span>
+            <span class="lineblock-skill">Flask</span><br />
+            AI 기반 자율주행 과수운반 로봇에 탑재된 WEB으로, 현재 적재된 과일,
+            적재량 등을 이용자에게 알리고 실시간 날씨 정보 등을 가져옵니다.
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- Project 2 -->
+        <div class="project-row">
+          <div class="project-img-box">
+            <a
+              href="https://github.com/cookiesthatimade/vue-unmanned-store-web.git"
+              class="portfolio-box"
+              target="_blank"
+            >
+              <img src="img/project/project5.png" alt="unmannedstore-website" />
+              <div class="portfolio-box-caption">
+                <div>unmannedstore-website</div>
+              </div>
+            </a>
+          </div>
+          <div class="project-description">
+            <h4>📌 프로젝트 2 - 무인의류매장 플랫폼 운영 웹</h4>
+            <span class="lineblock-date">2024.08 ~ 2024.10</span><br />
+            <span class="lineblock-skill">HTML/CSS</span>
+            <span class="lineblock-skill">Javascript</span>
+            <span class="lineblock-skill">Vue.js</span>
+            <span class="lineblock-skill">MySQL</span>
+            <span class="lineblock-skill">Docker</span>
+            <span class="lineblock-skill">AWS EC2</span><br />
+            고객을 위한 매장 안내 및 판매, 개인화 추천, 사용자 평가 등의 기능을
+            제공합니다.
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- Project 3 -->
+        <div class="project-row">
+          <div class="project-img-box">
+            <a
+              href="https://github.com/cookiesthatimade/qr-checkin.git"
+              class="portfolio-box"
+              target="_blank"
+            >
+              <img src="img/project/project4.png" alt="qr-checkin" />
+              <div class="portfolio-box-caption">
+                <div>qr-checkin</div>
+              </div>
+            </a>
+          </div>
+          <div class="project-description">
+            <h4>📌 프로젝트 3 - 무인의류매장 출입 QR 발급 시스템</h4>
+            <span class="lineblock-date">2024.08 ~ 2024.10</span><br />
+            <span class="lineblock-skill">HTML/CSS</span>
+            <span class="lineblock-skill">Javascript</span>
+            <span class="lineblock-skill">Python</span>
+            <span class="lineblock-skill">Django</span>
+            <span class="lineblock-skill">MySQL</span>
+            <span class="lineblock-skill">Docker</span>
+            <span class="lineblock-skill">AWS EC2 & S3</span><br />
+            회원가입, 로그인 절차를 통한 출입 QR 발급 시스템을 개발하였습니다.
+          </div>
+        </div>
+        <hr />
+
+        <!-- Project 4 -->
+        <div class="project-row">
+          <div class="project-img-box">
+            <a
+              href="https://github.com/cookiesthatimade/flask-lotte-guide-web.git"
+              class="portfolio-box"
+              target="_blank"
+            >
+              <img src="img/project/project3.png" alt="lotte-guide-web" />
+              <div class="portfolio-box-caption">
+                <div>lotte-guide-web</div>
+              </div>
+            </a>
+          </div>
+          <div class="project-description">
+            <h4>📌 프로젝트 4 - 롯데아울렛 자율주행 안내로봇 WEB</h4>
+            <span class="lineblock-date">2024.04 ~ 2024.08</span><br />
+            <span class="lineblock-skill">HTML/CSS</span>
+            <span class="lineblock-skill">Javascript</span>
+            <span class="lineblock-skill">Python</span>
+            <span class="lineblock-skill">Flask</span>
+            <span class="lineblock-skill">MySQL</span>
+            <span class="lineblock-skill">Docker</span>
+            <span class="lineblock-skill">AWS EC2</span><br />
+            롯데아울렛 내 로봇에 탑재된 웹 서비스로, 사용자가 아울렛 내 매장
+            정보와 위치를 안내받을 수 있도록 설계되었습니다.
+          </div>
+        </div>
+        <hr />
+
+        <!-- Project 5 -->
+        <div class="project-row">
+          <div class="project-img-box">
+            <a
+              href="https://github.com/cookiesthatimade/flask-shareplat-web.git"
+              class="portfolio-box"
+              target="_blank"
+            >
+              <img src="img/project/project2.png" alt="shareplat-web" />
+              <div class="portfolio-box-caption">
+                <div>shareplat-web</div>
+              </div>
+            </a>
+          </div>
+          <div class="project-description">
+            <h4>📌 프로젝트 5 - (주)쉐어플랫 홈페이지</h4>
+            <span class="lineblock-date">2024.03 ~ 2024.04</span><br />
+            <span class="lineblock-skill">HTML/CSS</span>
+            <span class="lineblock-skill">Javascript</span>
+            <span class="lineblock-skill">Python</span>
+            <span class="lineblock-skill">Flask</span>
+            <span class="lineblock-skill">AWS EC2</span><br />
+            (주)쉐어플랫의 기업 소개와 서비스 안내를 포함한 웹 페이지를
+            구축하였습니다.
+          </div>
+        </div>
+        <hr />
+
+        <!-- Project 6 -->
+        <div class="project-row">
+          <div class="project-img-box">
+            <a
+              href="https://github.com/cookiesthatimade/flask-gumnam-guide-web.git"
+              class="portfolio-box"
+              target="_blank"
+            >
+              <img src="img/project/project1.png" alt="gumnam-guide-web" />
+              <div class="portfolio-box-caption">
+                <div>gumnam-guide-web</div>
+              </div>
+            </a>
+          </div>
+          <div class="project-description">
+            <h4>📌 프로젝트 6 - 금남지하상가 자율주행 안내 로봇 WEB</h4>
+            <span class="lineblock-date">2023.12 ~ 2024.03</span><br />
+            <span class="lineblock-skill">HTML/CSS</span>
+            <span class="lineblock-skill">Javascript</span>
+            <span class="lineblock-skill">Python</span>
+            <span class="lineblock-skill">Flask</span>
+            <span class="lineblock-skill">MySQL</span>
+            <span class="lineblock-skill">Docker</span>
+            <span class="lineblock-skill">AWS EC2</span><br />
+            (주)쉐어플랫의 기업 소개와 서비스 안내를 포함한 웹 페이지를
+            구축하였습니다.
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+</section>
